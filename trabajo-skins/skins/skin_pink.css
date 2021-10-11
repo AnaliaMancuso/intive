@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+:root {
+    --font-primary:'Pacifico', cursive;
+    --font-secondary: 'Architects Daughter', cursive;
+    --bg-img-banner: url('/trabajo-skins/images/cultura_paisajeiluminado_landuum5.jpg');
+    --bg-section-even: #f15bb5;
+    --bg-section-odd: #ffc8dd;
+    --opacity-bg-banner: 50%;
+    --color-menu: #ff006e;
+    --color-h1: #fee440;
+    --color-banner-p: #f15bb5;
+    --color-h2-article: #fff3b0;
+    --color-article-p-even: #f15bb5;
+    --color-article-p-odd: #ffc8dd;
+    --color-boton: #fee440;
+    --color-hover-li: #faf9f9;
+    --font-size-menu: 40px;
+    --font-size-logo: 50px;
+    --font-size-h1: 50px;
+    --font-size-banner-p: 30px;
+    --font-size-h2: 50px;
+    --font-size-p: 30px;
+    --font-size-boton: 50px;
+    --justify-banner: center;
+    --letter-spacing-p: 1px;
+    --word-spacing-p: 2px;
+    --line-height-p: 40px;
+    --text-transform-menu: uppercase;
+    --text-transform-h1: uppercase;
+    --text-transform-banner-p: capitalize;
+    --text-transform-h2: uppercase;
+    --padding-container: 0 10%;
+    --padding-section: 30px 10% 0 10%;
+    --margin-article-p: 50px 0 0 0;
+    --padding-menu: 20px 10% 0 10%;
+    --align-h1: center;
+    --align-banner-p: center;
+    
+}

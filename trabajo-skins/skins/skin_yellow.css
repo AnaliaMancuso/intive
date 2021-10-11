@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+:root {
+    --font-primary:'Luckiest Guy', cursive;
+    --font-secondary: 'Acme', sans-serif;
+    --bg-img-banner: url('/trabajo-skins/images/front-view-beautiful-dog-with-copy-space.jpg');
+    --bg-section-even: #99582a;
+    --bg-section-odd: #ffb3ae;
+    --opacity-bg-banner: 70%;
+    --color-menu: #f47068;
+    --color-h1: #fff4f1;
+    --color-banner-p: #99582a;
+    --color-h2-article: #fff3b0;
+    --color-article-p-even: #99582a;
+    --color-article-p-odd: #ffb3ae;
+    --color-boton: #fff4f1;
+    --color-hover-li: #f5f3f3;
+    --font-size-menu: 40px;
+    --font-size-logo: 50px;
+    --font-size-h1: 50px;
+    --font-size-banner-p: 30px;
+    --font-size-h2: 50px;
+    --font-size-p: 30px;
+    --font-size-boton: 50px;
+    --justify-banner: start;
+    --letter-spacing-p: 1px;
+    --word-spacing-p: 2px;
+    --line-height-p: 40px;
+    --text-transform-menu: uppercase;
+    --text-transform-h1: uppercase;
+    --text-transform-banner-p: capitalize;
+    --text-transform-h2: uppercase;
+    --padding-container: 0 10%;
+    --padding-section: 30px 10% 0 10%;
+    --margin-article-p: 50px 0 0 0;
+    --padding-menu: 20px 10% 0 10%;
+    --align-h1: left;
+    --align-banner-p: left;
+    
+    
+}

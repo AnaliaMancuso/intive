@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lobster&display=swap');
+:root {
+    --font-primary:'Lobster', cursive;
+    --font-secondary:'Cabin', sans-serif;
+    --bg-img-banner: url('/trabajo-skins/images/beautiful-hawaii-landscape-with-ocean.jpg');
+    --bg-section-even: #3ab2f8;
+    --bg-section-odd: #84ffd6;
+    --opacity-bg-banner: 50%;
+    --color-menu: #0c7e58;
+    --color-h1: #04c786;
+    --color-banner-p: #454874;
+    --color-h2-article: #1a5e47;
+    --color-article-p-even: #3ab2f8;
+    --color-article-p-odd: #84ffd6;
+    --color-boton: #1a5e47;
+    --color-hover-li: #808181;
+    --font-size-menu: 30px;
+    --font-size-logo: 50px;
+    --font-size-h1: 50px;
+    --font-size-banner-p: 30px;
+    --font-size-h2: 50px;
+    --font-size-p: 30px;
+    --font-size-boton: 50px;
+    --justify-banner: start;
+    --letter-spacing-p: 1px;
+    --word-spacing-p: 2px;
+    --line-height-p: 40px;
+    --text-transform-menu: uppercase;
+    --text-transform-h1: uppercase;
+    --text-transform-banner-p: capitalize;
+    --text-transform-h2: uppercase;
+    --padding-container: 0 10%;
+    --padding-section: 30px 10% 0 10%;
+    --margin-article-p: 50px 0 0 0;
+    --padding-menu: 20px 10% 0 10%;
+    --align-h1: center;
+    --align-banner-p: center;
+    
+    
+
+}

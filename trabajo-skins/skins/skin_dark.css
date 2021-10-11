@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Cabin&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@700&display=swap');
+:root {
+    --font-primary:'Architects Daughter', cursive;
+    --font-secondary: 'Yanone Kaffeesatz', sans-serif;
+    --bg-img-banner: url('/trabajo-skins/images/5786887.jpg');
+    --bg-section-even: #335c67;
+    --bg-section-odd: #540b0e;
+    --opacity-bg-banner: 70%;
+    --color-menu: #e09f3e;
+    --color-h1: #fff3b0;
+    --color-banner-p: #9e2a2b;
+    --color-h2-article: #fff3b0;
+    --color-article-p-even: #335c67;
+    --color-article-p-odd: #540b0e;
+    --color-boton: #fff3b0;
+    --color-hover-li: #dfdddb;
+    --font-size-menu: 40px;
+    --font-size-logo: 50px;
+    --font-size-h1: 50px;
+    --font-size-banner-p: 30px;
+    --font-size-h2: 50px;
+    --font-size-p: 30px;
+    --font-size-boton: 50px;
+    --justify-banner: center;
+    --letter-spacing-p: 1px;
+    --word-spacing-p: 2px;
+    --line-height-p: 40px;
+    --text-transform-menu: uppercase;
+    --text-transform-h1: uppercase;
+    --text-transform-banner-p: capitalize;
+    --text-transform-h2: uppercase;
+    --padding-container: 0 10%;
+    --padding-section: 30px 10% 0 10%;
+    --margin-article-p: 50px 0 0 0;
+    --padding-menu: 20px 10% 0 10%;
+    --align-h1: center;
+    --align-banner-p: center;
+    
+}
