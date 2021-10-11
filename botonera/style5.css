@@ -1,0 +1,32 @@
+.contenedor {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 350px;
+    background-color: hotpink;
+    box-sizing: border-box;
+    color: white;
+    padding: 10px;
+}
+input[type=radio] {
+    display: none;
+}
+label {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+label:hover {
+    background-color: indianred;
+}
+.contenido div {
+    display: none;
+    padding:50px;
+}
+#btn_a:checked ~ .contenido .contenido_a, #btn_b:checked ~ .contenido .contenido_b, #btn_c:checked ~ .contenido .contenido_c, #btn_d:checked ~ .contenido .contenido_d, #btn_e:checked ~ .contenido .contenido_e {
+    display: block;
+}
