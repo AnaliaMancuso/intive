@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(56, 56, 56);
+    font-family: 'Montserrat', sans-serif;  
+}
+.card {
+    border: 20px solid black;
+    width: 630px;
+    height: 500px;
+    background-color: white;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img {
+    position:absolute;
+    left: 280px;
+}
+.img img {
+    height: 500px;
+}
+.texto {
+    position: absolute;
+    width: 300px;
+    margin: 70px 0 0 30px;
+}
+h3 span{
+    text-transform: uppercase;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 0 20px;
+    border-radius: 15px;
+    font-weight: lighter;
+}
+h2 {
+    margin: 40px 0;
+    font-size: 40px;
+}
+p {
+    color: rgb(180, 180, 180);
+    line-height: 90%;
+}
+.boton {
+    margin-top: 50px;
+}
+.boton span:nth-child(1){
+    border-radius: 20px 0px 0px 20px;  
+}
+.boton span:nth-child(2){
+    border-radius: 0px 20px 20px 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.boton span{
+    border: 1px solid gray;
+    padding: 10px;
+    text-transform: uppercase;
+}

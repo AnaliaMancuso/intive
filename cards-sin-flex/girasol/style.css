@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.flor img {
+    width: 300px;
+}
+.texto {
+    font-family: 'Gluten', cursive;
+    text-transform: capitalize;
+    padding: 50px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.boton-precio {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+button {
+    background-color: #fff782;
+    border-radius: 50px;
+    box-shadow: 0px 1px 3px #bdbdbd;
+    font-family: 'Gluten', cursive;
+    text-transform: capitalize;
+    padding: 10px 20px 10px 20px;
+}
+

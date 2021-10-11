@@ -1,0 +1,63 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    background-color: #80afcd;
+}
+.card__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: #E4F2FD;
+}
+.card__img img {
+    height: 380px;
+    width: 300px;
+}
+.card__icons {
+    transform: translateY(-200%);
+}
+.card__bottom {
+    margin: -5px 0 0 0;
+    height: 60px;
+}
+.card__avatar {
+    background-image:url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    border-radius: 50px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 20px 20px 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.card__avatar, .card__author {
+    float: left;
+}
+i, h3, h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+i {
+    color:white;
+    margin: 0 0 0 20px;
+    font-size: smaller;
+}
+i span {
+    margin: 0 0 0 10px;
+}
+h3, h4 span {
+    text-transform: capitalize;
+}
+h3 {
+    color:#334454;
+}
+h4 {
+    color: #A1B2BC;
+    font-size: small;
+}
+h4 span {
+    font-style: italic;
+}

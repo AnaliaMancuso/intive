@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap [fonts.googleapis.com]'); 
+
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,248,194,1) 0%, rgba(255,237,215,1) 100%);
+    /* background-color: #DFC2F2; */
+}
+.card__container {
+    background-color: white;
+    box-shadow: 0 0 20px 20px #d0d0d0; 
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+}
+.card__left, .card__right {
+    float: left;
+}
+.card__left {
+    width: 390px;
+    padding: 20px 50px 15px 20px;
+}
+.card__point {
+    background-color: #FFE6E6;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-left: 200px;
+    
+}
+h1 {
+    font-family: 'Bebas Neue', cursive; 
+    color: #344055;
+    margin: 0 0 0 15px;
+}
+p { 
+    font-family: 'EB Garamond', serif;
+    color: #7D7D7D;
+    font-size: large;
+    line-height: 1.8;
+    text-align: center;
+}
+.card__button  button{
+    font-family: 'Farsan', cursive;
+    border: none;
+    font-size: x-large;
+    color:white;
+    padding: 10px 15px;
+}
+.card__button {
+    margin: 80px 0px 0px 80px;
+}
+img {
+    height: 400px;
+    width: 340px;
+}
+
+.card__button button:nth-child(1){
+    border-radius: 8px 0px 0px 8px;  
+    background-color: #333333;
+}
+.card__button button:nth-child(2){
+    border-radius: 0px 8px 8px 0px;
+    background-color: #809FFF;
+    margin-left: -5px;
+}
+span {
+    text-transform: capitalize;
+}
