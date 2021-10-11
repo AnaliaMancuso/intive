@@ -1,0 +1,120 @@
+* {
+    margin:0;
+    padding:0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@300&display=swap');
+h2, h3, p, a {
+    font-family: 'Yaldevi', sans-serif;
+}
+.logo-nav div p,  .text-header h2 span, .up i{
+    color: #D79491;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    height: 50px;
+    background-color: #ffffff;
+}
+.logo-nav {
+    display: flex;
+}
+h2 {
+    font-size: 60px;
+    color: #67687A;
+}
+.text-header p {
+    color: #67687A;
+    margin: 20px 0;
+    padding: 0 50px 0 0;
+}
+.text-header a i {
+    font-size: 50px;
+    color: #393a34;
+}
+.logo-nav p {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.redes > i:nth-child(2) {
+    margin: 0 15px;
+}
+nav li {
+    margin: 0 0 0 20px;
+    text-transform: capitalize;
+}
+li a {
+    text-decoration: none;
+    color: #393a34;
+}
+header {
+    display: flex;
+    padding: 0 0 0 20%;
+    height: 100vh;
+}
+.text-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header > :nth-child(1) {
+    flex: 1 1 30%;
+}
+header > :nth-child(2) {
+    flex: 1 1 70%;
+}
+.banner-img {
+    background-image: url('https://inovatik.com/nico/images/header-background.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 4;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100vh;
+    padding: 0 20%;
+}
+.card-top {
+    color: #67687A;
+    padding: 0 200px;
+}
+.card h3, .card p {
+    text-align: center;
+}
+.img-article {
+    background-image: url('https://inovatik.com/nico/images/about.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+}
+.article-bottom {
+    display: flex;
+    padding: 0 20%;
+    margin: 0 0 100px 0;
+}
+.article-bottom div:nth-child(2) {
+    margin: 0 20px;
+}
+.article-bottom h3, .article-bottom p {
+    color: #67687A;
+}
+.up {
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    font-size: 40px;
+    top: 90%;
+    right: 10%;
+}
