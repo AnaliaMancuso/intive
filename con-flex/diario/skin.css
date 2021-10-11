@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    --img: url("https://images.unsplash.com/photo-1471119017026-179f1bb0a70e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+    --bg-color: #eee3c8; 
+    --font-principal: 'abril-text'; 
+    --font-p-start: 'brandon-grotesque'; 
+    --font-sans-serif: 'Helvetica', sans-serif;
+    --color-dark: #000000;
+}

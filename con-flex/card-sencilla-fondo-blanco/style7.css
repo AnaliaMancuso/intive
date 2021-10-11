@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap [fonts.googleapis.com]'); 
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --font: 'Merriweather', serif; 
+    --bg-card: #F2F2F2;
+    --bg-card-cont: #F0F0F0;
+    --shadow: 0 0 20px 8px #d0d0d0;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: var(--bg-card-cont)
+}
+.card__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-family: var(--font);
+    height: 40vh;
+    width: 60vh;
+    background-color:var(--bg-card);
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+}
+.card__body {
+    margin: 20px 0 0 0;
+    padding: 0 50px;
+}
+p {
+    text-align: justify;
+}
+p::first-letter { 
+    text-transform: capitalize; 
+}

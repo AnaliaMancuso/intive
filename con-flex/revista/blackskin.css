@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+:root {
+    --font-title: 'Abril Fatface';
+    --font-small-titles: 'Helvetica';
+    --color-dark: #000000;
+    --color-light: #ffffff;
+}
