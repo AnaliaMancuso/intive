@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+:root { 
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray: #B5B5B3;
+    --color-light-gray: #B5B5B3;
+    --color-green-footer: #2F7668;
+    --bg-color-header: #3EBFFF;
+    --bg-color-sections: #FFFBF8;
+    --bg-color-footer: #90D4C5;
+    --underline-color-yellow: #F7EEB7;
+    --underline-color-pink: #FDE0DA;
+    --bs-font-sans-serif: "Barlow", sans-serif;
+    --bs-font-monospace: "Fraunces", serif;
+    --margin-top-desktop: 0 3%;
+    --padding-top: 2% 0 5% 0;
+    --margin-nav: 0 0 0 40px;
+    --img-egg: url('images/desktop/image-transform.jpg');   
+    --img-glass: url('images/desktop/image-stand-out.jpg');
+    --img-cherry: url('images/desktop/image-graphic-design.jpg');
+    --img-orange:  url('images/desktop/image-photography.jpg');
+    --bg-img-banner-desktop: url('images/desktop/image-header.jpg');
+    --img-bottom-1: url('/landing-creative/images/desktop/image-gallery-milkbottles.jpg');
+    --img-bottom-2: url('/landing-creative/images/desktop/image-gallery-orange.jpg');
+    --img-bottom-3: url('/landing-creative/images/desktop/image-gallery-cone.jpg');
+    --img-bottom-4: url('/landing-creative/images/desktop/image-gallery-sugarcubes.jpg');
+
+} 
