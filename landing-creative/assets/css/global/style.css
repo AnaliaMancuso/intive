@@ -1,0 +1,13 @@
+/****skins***/
+@import url(../skin/skin.css);
+/****estilo base****/
+@import url(../global/style-basis.css);
+
+/*****dispositivos****/
+
+/*****mobile****/
+@import url(../devices/mobile/style-mobile.css) (max-width: 1077px);
+/*****desktop****/
+@import url(../devices/desktop/style-desktop.css) (min-width: 1078px);
+
+
