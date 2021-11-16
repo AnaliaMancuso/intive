@@ -3,7 +3,7 @@
 :root {
     --font-primary:'Lobster', cursive;
     --font-secondary:'Cabin', sans-serif;
-    --bg-img-banner: url('/trabajo-skins/images/beautiful-hawaii-landscape-with-ocean.jpg');
+    --bg-img-banner: url('/images/beautiful-hawaii-landscape-with-ocean.jpg');
     --bg-section-even: #3ab2f8;
     --bg-section-odd: #84ffd6;
     --opacity-bg-banner: 50%;

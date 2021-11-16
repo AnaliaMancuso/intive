@@ -3,7 +3,7 @@
 :root {
     --font-primary:'Luckiest Guy', cursive;
     --font-secondary: 'Acme', sans-serif;
-    --bg-img-banner: url('/trabajo-skins/images/front-view-beautiful-dog-with-copy-space.jpg');
+    --bg-img-banner: url('/images/front-view-beautiful-dog-with-copy-space.jpg');
     --bg-section-even: #99582a;
     --bg-section-odd: #ffb3ae;
     --opacity-bg-banner: 70%;

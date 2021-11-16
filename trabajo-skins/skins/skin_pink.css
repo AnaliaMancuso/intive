@@ -3,7 +3,7 @@
 :root {
     --font-primary:'Pacifico', cursive;
     --font-secondary: 'Architects Daughter', cursive;
-    --bg-img-banner: url('/trabajo-skins/images/cultura_paisajeiluminado_landuum5.jpg');
+    --bg-img-banner: url('/images/cultura_paisajeiluminado_landuum5.jpg');
     --bg-section-even: #f15bb5;
     --bg-section-odd: #ffc8dd;
     --opacity-bg-banner: 50%;

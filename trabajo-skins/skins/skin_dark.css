@@ -3,7 +3,7 @@
 :root {
     --font-primary:'Architects Daughter', cursive;
     --font-secondary: 'Yanone Kaffeesatz', sans-serif;
-    --bg-img-banner: url('/trabajo-skins/images/5786887.jpg');
+    --bg-img-banner: url('/images/5786887.jpg');
     --bg-section-even: #335c67;
     --bg-section-odd: #540b0e;
     --opacity-bg-banner: 70%;
